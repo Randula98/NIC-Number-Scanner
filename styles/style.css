@@ -1,0 +1,98 @@
+body{
+    background-image: url("img/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 150, 219, 0.527);
+    color: antiquewhite; 
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.head:hover{
+    color: black;
+}
+
+.details{
+    width: 80%;
+    height: 200px;
+    margin: 0px auto;
+    background-color: rgba(36, 35, 109, 0.89);
+    color: cornsilk;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 80px 20px;
+    transition: .5s;
+}
+
+.details:hover{
+    border-radius: 20px 80px;
+    color: darkcyan;
+}
+
+.details p{
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: fantasy;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    color: darkkhaki;
+    text-align: center;
+}
+
+.footer a{
+    color: darkkhaki;
+    transition: .5s;
+}
+
+.footer a:hover
+{
+    color: darksalmon;
+}
+
+.workspace{
+    width: 80%;
+    height: 400px;
+    background-color: rgba(63, 199, 131, 0.651);
+    margin: 0px auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 30px;
+}
+
+.workspace button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 50px;
+    background-color: darkslateblue;
+    color: floralwhite;
+    border: 0px;
+    transition: .5s;
+    border-radius: 25px 5px;
+}
+.txtall{
+    width: 600px;
+    margin: 0px auto;
+    text-align: left;
+    margin-left: 360px;
+}
+
+.workspace button:hover{
+    cursor: pointer;
+    color: darkslateblue;
+    background-color: floralwhite;
+    border-radius: 5px 25px;
+}
+
