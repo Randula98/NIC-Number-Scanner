@@ -4,4 +4,4 @@
 #
 A Javascript function created to find the Gender and the DOB of the citizen in Sri Lanka
 #
-Feel free to try out 
+Feel free to try out 😀
